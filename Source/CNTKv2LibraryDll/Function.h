@@ -47,6 +47,7 @@ namespace CNTK
             { PrimitiveOpType::Slice, L"Slice" },
             { PrimitiveOpType::Dropout, L"Dropout" },
             { PrimitiveOpType::Reshape, L"Reshape" },
+            { PrimitiveOpType::ROIPooling, L"ROIPooling" },
             { PrimitiveOpType::Pooling, L"Pooling" },
             { PrimitiveOpType::SumAll, L"SumAll" },
             { PrimitiveOpType::Plus, L"Plus" },
@@ -170,6 +171,7 @@ namespace CNTK
         static const std::wstring AttributeNameUpperPad;
         static const std::wstring AttributeNameTranspose;
         static const std::wstring AttributeNameMaxTempMemSizeInSamples;
+        static const std::wstring AttributeNameROIOutputShape;
         static const std::wstring AttributeNamePoolingType;
         static const std::wstring AttributeNamePoolingWindowShape;
         static const std::wstring AttributeNameSpatial;
