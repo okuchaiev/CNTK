@@ -54,6 +54,7 @@ namespace CNTK
         Select = 42,
         Splice = 43,
         Combine = 44,
+        ROIPooling = 45,
         // New op types should only be appended to the end of this list.
     };
 }

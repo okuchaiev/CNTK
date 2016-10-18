@@ -47,7 +47,6 @@ namespace CNTK
             { PrimitiveOpType::Slice, L"Slice" },
             { PrimitiveOpType::Dropout, L"Dropout" },
             { PrimitiveOpType::Reshape, L"Reshape" },
-            { PrimitiveOpType::ROIPooling, L"ROIPooling" },
             { PrimitiveOpType::Pooling, L"Pooling" },
             { PrimitiveOpType::SumAll, L"SumAll" },
             { PrimitiveOpType::Plus, L"Plus" },
@@ -76,6 +75,7 @@ namespace CNTK
             { PrimitiveOpType::Select, L"Select" },
             { PrimitiveOpType::Splice, L"Splice" },
             { PrimitiveOpType::Combine, L"Combine" },
+            { PrimitiveOpType::ROIPooling, L"ROIPooling" },
         };
 
         if (primitiveOpNames.find(opType) == primitiveOpNames.end())
